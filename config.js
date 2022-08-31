@@ -11,10 +11,10 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Michael',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: True,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -28,12 +28,12 @@ const CONFIG = {
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '35.192',
+	defaultLongitude: '89.869',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Reddit',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://reddit.com',
 		},
 		{
 			id: '4',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'Facebook',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://facebook.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'gmail',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com
 		},
 	],
 
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Reddit',
+					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Discord',
+					link: 'https://www.discord.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Facebook',
+					link: 'https://www.facebook.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Gmail',
+					link: 'https://www.gmail.com',
 				},
 			],
 		},
